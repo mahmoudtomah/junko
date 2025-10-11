@@ -134,3 +134,34 @@ color: #486ed1;
 
 /* <!-- end of footer -->
 <!-- //////////////////////////////////////////////////////////////////////////// --> */
+
+
+/* under footer */
+
+.left-under-footer img{
+
+    width: 30px;
+    height: 30px;
+}
+
+.color-in-left-under-footer{
+
+background-color: #3b6289;
+
+transform: translateY(-2px);
+}
+
+.paypal-in-left-under-footer{
+
+    transform: translateY(-2px);
+
+}
+
+
+
+
+
+
+
+/* end of under footer */
+/* ////////////////////////////////////////////////////////////////////////////////////// */
