@@ -1,3 +1,78 @@
+/* <!-- client-in-home --> */
+
+
+.clients-in-home h3{
+
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.clients-in-home p{
+
+    font-size: 13px;
+    line-height: 18px;
+
+}
+
+
+.image-1-in-client-in-home{
+ 
+    width: 240px;
+
+}
+
+
+.image-2-in-client-in-home{
+
+       width: 510px;
+}
+
+.image-3-in-client-in-home{
+
+   width: 240px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* <!-- end of client-in-home -->
+<!-- /////////////////////////////////////////////////// --> */
+
+
+
+
+
+
+
 /* <!-- footer --> */
     
 a{
