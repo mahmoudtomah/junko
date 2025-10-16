@@ -154,7 +154,7 @@ background-color: #0063d1;
 /* <!-- client-in-home --> */
 
 
-/* .clients-in-home h3{
+.clients-in-home h3{
 
     font-size: 14px;
     line-height: 20px;
@@ -170,28 +170,42 @@ background-color: #0063d1;
 }
 
 
-.image-1-in-client-in-home{
+.images-3-in-client-in-home img {
+  object-fit:fill; 
+       
+}
+
+
+@media (max-width: 1399.98px) {
+
+  .images-3-in-client-in-home {
+    align-items: stretch;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 767.98px) { 
+
+  .images-3-in-client-in-home{
+    display: flex;
+    flex-direction: column;
+width: 100%;
+align-items: stretch;
+}
  
-    width: 240px;
+  
 
 }
-
-
-.image-2-in-client-in-home{
-
-       width: 510px;
-}
-
-.image-3-in-client-in-home{
-
-   width: 240px;
-}
-
-
- */
-
-
-
 
 
 
