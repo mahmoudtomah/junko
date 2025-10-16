@@ -28,25 +28,80 @@
 
 
 
+/* <!-- form above navbar --> */
+
+.form-above-navbar{
+
+    padding: 20px 0;
+}
+
+.form-above-navbar img{
+    width: 170px;
+
+}
+
+.form-above-navbar .btn-secondary
+{
+    background-color: #fff;
+  color: #000;
+  border: none;
+  outline: none;
+}
+
+.form-above-navbar .btn-outline
+{
+     background-color: #0063d1;
+     color: #fff;
+     padding: 10px 30px;
+     border-radius: 5%;
+   
+}
+
+.form-above-navbar .form-control{
+
+    border: none;
+    outline: none;
+    
+}
+
+
+.form-above-navbar form{
+
+     border: 3px solid #ebebeb;
+
+}
 
 
 
 
 
+.form-above-navbar .btn{
+
+    --bs-btn-border-radius: 0;
+    
+}
+.form-above-navbar .navbar .container  form{
+   display: flex;
+
+}
+
+
+@media (max-width: 992px) { 
+    
+  .form-above-navbar .navbar .container  form{
+   display: none ;
+
+}
+
+  
+}
+/* <!-- end ofform above navbar -->
+<!-- //////////////////////////////////////////// --> */
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+/* <!-- end ofform above navbar -->
+<!-- //////////////////////////////////////////// --> */
 
 
 
@@ -72,7 +127,32 @@
   position: absolute; 
   top: 20%;
   left: 10%;
+  animation-name: slide-left-in-carouselonehome;
+  animation-duration: 2.5s;
+  
 }
+
+
+
+
+@keyframes slide-left-in-carouselonehome
+{
+
+   from{   
+       transform: translateX(-100%);
+       opacity: 0;
+   }
+         to{   
+       transform: translateX(0);
+       opacity: 1;
+   }
+
+}
+
+
+
+
+
 
  .carousel1-item-in-home h2{
 
@@ -229,6 +309,22 @@ background-color: #0063d1;
   object-fit:fill; 
        
 }
+
+
+
+
+.images-3-in-client-in-home img:hover{
+  transform:scale(1.07);
+       
+}
+
+
+.images-3-in-client-in-home img:hover{
+  transition: transform 1s; 
+       
+}
+
+
 
 
 @media (max-width: 1399.98px) {
