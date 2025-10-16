@@ -52,14 +52,17 @@
 
 /* <!--  carousel1-in-home--> */
 
-/* .carousel-in-home 
+.carousel-in-home 
 {
    padding: 80px 0;
 }
 
 
+.carousel-in-home  .carousel-indicators
+{
 
-
+    bottom: -15px;
+}
 
 .carousel-in-home .carousel-item {
   position: relative;
@@ -67,8 +70,8 @@
 
 .left-in-carouselonehome {
   position: absolute; 
-  top: 70px;
-  left: 140px;
+  top: 20%;
+  left: 10%;
 }
 
  .carousel1-item-in-home h2{
@@ -115,12 +118,64 @@ background-color: #0063d1;
 }
 
 
+@media (max-width: 1399.98px) { 
+    
+.carousel1-item-in-home h2{
+
+    font-size:20px ;
+ }
 
 
- */
+ .carousel1-item-in-home h3{
+
+    font-size:20px ;
+
+ }
+
+.left-in-carouselonehome {
+  
+  top: 10%;
+  left: 5%;
+}
 
 
+ }
 
+
+@media (max-width: 767px) { 
+
+
+.carousel1-item-in-home h2,.carousel1-item-in-home p{
+
+    display: none;
+ }
+
+
+ .carousel1-item-in-home h3{
+
+display: none;
+ }
+
+
+.left-in-carouselonehome {
+  
+  top: 40%;
+  
+}
+
+
+.carousel-in-home  a{
+
+padding: 5px 10px;
+background-color: #0063d1;
+}
+
+.carousel1-item-in-home a{
+
+         font-size:10px ;
+
+ }
+}
 
 
 
