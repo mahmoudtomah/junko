@@ -1,7 +1,160 @@
+/*  above-navbar*/
+
+.above-navbar{
+    background-color:#f8f9f9 ;
+    padding: 15px 0;
+    font-size: 14px;
+    font-weight:400px;
+    font-weight: 600;
+}
+
+@media (max-width: 575.98px) { 
+
+.text-in-navbar{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+ }
+
+
+/* <!-- end of above-navbar -->
+<!-- ///////////////////////// -->
+
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* <!--  carousel1-in-home--> */
+
+/* .carousel-in-home 
+{
+   padding: 80px 0;
+}
+
+
+
+
+
+.carousel-in-home .carousel-item {
+  position: relative;
+}
+
+.left-in-carouselonehome {
+  position: absolute; 
+  top: 70px;
+  left: 140px;
+}
+
+ .carousel1-item-in-home h2{
+
+    font-size:60px ;
+ }
+
+
+ .carousel1-item-in-home h3{
+
+    font-size:60px ;
+
+ }
+
+ .carousel1-item-in-home p{
+
+         font-size:18px ;
+
+ }
+
+ .carousel1-item-in-home span{
+
+         font-size:18px ;
+        color: #2177d6;
+ }
+
+.carousel-in-home .carousel-indicators [data-bs-target]
+
+{
+width: 10px;
+height: 10px;
+border-radius: 50%;
+background-color: #ebebeb;
+}
+
+.carousel-in-home .carousel-indicators .active {
+background-color: #0063d1;
+}
+
+.carousel-in-home  a{
+
+padding: 10px 20px;
+background-color: #0063d1;
+}
+
+
+
+
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* <!-- end of carousel-in-home -->
+<!-- ////////////////////////////////////////////////////////////////////// --> */
+
+
+
+
+
 /* <!-- client-in-home --> */
 
 
-.clients-in-home h3{
+/* .clients-in-home h3{
 
     font-size: 14px;
     line-height: 20px;
@@ -35,7 +188,7 @@
 }
 
 
-
+ */
 
 
 
