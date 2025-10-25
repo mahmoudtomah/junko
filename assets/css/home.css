@@ -382,6 +382,90 @@
 /* <!-- end of client-in-home -->
 <!-- /////////////////////////////////////////////////// --> */
 
+/* hot deals product */
+
+.old-price{
+
+    text-decoration: line-through;
+    font-weight: 400;
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+.new-price{
+
+    color: #0063d1;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.hot-deals-product .card{
+
+   border: none;
+  position: relative;
+
+}
+
+
+.hot-deals-product .sale{
+   position: absolute;
+  background-color: #62ab00;
+  color: #fff;
+  top: 5%;
+  right: 5%;
+}
+
+.time-in-hot-deals-product{
+  position: absolute;
+  font-size: 12px;
+  font-weight: 30px;
+ background-color: #0063d1;
+ color: #fff;
+ padding:8px 10px ; 
+ bottom: 0px;
+ align-items: stretch;
+ width: 100%;
+}
+
+
+.icon-in-hot-deals a svg
+{  
+  background-color: #0063d1;
+  top: 0%;
+  border-radius: 50%;
+  padding: 5px;
+  display: none;
+}
+
+.icon-in-hot-deals{
+   position: absolute;
+top: 20%;
+left: 4%;
+gap: 3px;
+}
+
+.hot-deals-product .card:hover{
+
+   border: 2px solid #e6e6e6;
+  transition-duration: 1s;
+            
+ .icon-in-hot-deals a svg
+{  
+ 
+  display: block;
+
+}
+
+}
+
+
+
+
+
+/* end of hot deals product */
+/* /////////////////////////////////////////// */
+
+
 
 /* <!-- Tops Categories This Week --> */
 
@@ -533,7 +617,6 @@
 
 
 /*Brands  */
-
 
 
 
