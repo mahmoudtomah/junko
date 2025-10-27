@@ -1,0 +1,260 @@
+body{
+height: 1500px;
+
+}
+a{
+text-decoration-line:none ;
+}
+
+ /* <!-- left-right-side --> */
+
+.right-side .card{
+
+   border: none;
+  position: relative;
+
+}
+
+
+.right-side .sale{
+   position: absolute;
+  background-color: #62ab00;
+  padding: 7px;
+  color: #fff;
+  top: 7%;
+  right: 7%;
+}
+
+.right-side a.time-in-hot-deals-product {
+  position: absolute;
+  font-size: 12px;
+  font-weight: 30px;
+ background-color: #0063d1;
+ color: #fff;
+ padding:8px 0 ; 
+ bottom: 0px;
+ width: 50%;
+ left: 50%;
+ transform: translateX(-50%);
+
+}
+
+
+.right-side .w-75 a{
+display: none;
+}
+
+
+
+
+
+
+
+.right-side .time-in-hot-deals-product
+
+{
+
+  width: 70%;
+  left: 20%;
+  right: 20%;
+}
+
+
+
+
+
+
+
+
+
+.icon-in-hot-deals a svg
+{  
+  background-color: #0063d1;
+  top: 0%;
+  border-radius: 50%;
+  padding: 5px;
+  display: none;
+}
+
+.right-side .icon-in-hot-deals{
+   position: absolute;
+top: 20%;
+left: 4%;
+gap: 3px;
+}
+
+.right-side .card:hover{
+
+   border: 2px solid #e6e6e6;
+  transition-duration: 1s;
+            
+ 
+
+}
+
+
+.right-side .card:hover .icon-in-hot-deals a svg
+{  
+ 
+  display: block;
+
+}
+
+.right-side .w-75 a{
+display: none;
+}
+
+
+.right-side .card:hover .w-75 a
+{  
+ 
+  display: block;
+
+}
+
+
+.right-side .carousel-control-prev {
+  background-color: #0063d1;
+        
+    top: 100%;
+    width: 4%;
+    height: 15%;
+   left: 0%;
+   border-radius: 50%;
+}
+
+.right-side .carousel-control-next {
+    
+    background-color: #0063d1;
+    top: 100%;
+    width: 4%;
+    height: 15%;
+    right: 0%;
+       border-radius: 50%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.shop .left-side{
+
+background-color: #f8f8f8;
+
+}
+
+.shop .list-group-item{
+
+background-color: #f8f8f8;
+
+}
+
+.left-side .list-group-item:hover a{
+
+    color: blue;
+}
+
+.left-side .list-group-item:hover {
+
+    cursor: pointer;
+}
+
+.left-side .list-group-item img{
+
+   width: 68px;
+   height: 68px;
+
+}
+.old-price{
+
+    text-decoration: line-through;
+    font-weight: 400;
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+.new-price{
+
+    color: #0063d1;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+
+.left-side .right-photo:hover p{
+
+    color: blue;
+}
+
+
+
+/*  <!-- end of left-right-side --> */

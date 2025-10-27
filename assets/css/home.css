@@ -458,6 +458,51 @@ gap: 3px;
 
 }
 
+.banner-hot img:hover {
+  transform: scale(1.02);
+
+}
+
+
+.banner-hot img:hover {
+  transition: transform 1s;
+
+}
+
+
+.hot-deals-product .carousel-control-prev {
+background-color: #0063d1;
+        
+    top: 60%;
+    width: 4%;
+    height: 15%;
+   left: 0%;
+   border-radius: 50%;
+}
+
+.hot-deals-product .carousel-control-next {
+    
+    background-color: #0063d1;
+        
+    top: 60%;
+    width: 4%;
+    height: 15%;
+   right: 0%;
+   border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -615,11 +660,171 @@ gap: 3px;
   <!-- ///////////////////////////////////////////// -->
  */
 
+ /* <!--computer & laptop --> */
+
+
+.computer-laptop .card{
+
+   border: none;
+  position: relative;
+
+}
+
+
+.computer-laptop .sale{
+   position: absolute;
+  background-color: #62ab00;
+  color: #fff;
+  top: 5%;
+  right: 5%;
+}
+
+.computer-laptop .time-in-hot-deals-product a{
+  position: absolute;
+  font-size: 12px;
+  font-weight: 30px;
+ background-color: #0063d1;
+ color: #fff;
+ padding:8px 0 ; 
+ bottom: 0px;
+ width: 50%;
+
+}
+
+
+.computer-laptop .w-75 a{
+display: none;
+}
+
+
+
+
+
+
+
+.computer-laptop .time-in-hot-deals-product
+
+{
+
+  width: 70%;
+  left: 20%;
+  right: 20%;
+}
+
+
+
+
+
+
+
+
+
+.icon-in-hot-deals a svg
+{  
+  background-color: #0063d1;
+  top: 0%;
+  border-radius: 50%;
+  padding: 5px;
+  display: none;
+}
+
+.computer-laptop .icon-in-hot-deals{
+   position: absolute;
+top: 20%;
+left: 4%;
+gap: 3px;
+}
+
+.computer-laptop .card:hover{
+
+   border: 2px solid #e6e6e6;
+  transition-duration: 1s;
+            
+ 
+
+}
+
+
+.computer-laptop .card:hover .icon-in-hot-deals a svg
+{  
+ 
+  display: block;
+
+}
+
+.computer-laptop .w-75 a{
+display: none;
+}
+
+
+.computer-laptop .card:hover .w-75 a
+{  
+ 
+  display: block;
+
+}
+
+
+.computer-laptop .carousel-control-prev {
+  background-color: #0063d1;
+        
+    top: 100%;
+    width: 4%;
+    height: 15%;
+   left: 0%;
+   border-radius: 50%;
+}
+
+.computer-laptop .carousel-control-next {
+    
+    background-color: #0063d1;
+    top: 100%;
+    width: 4%;
+    height: 15%;
+    right: 0%;
+       border-radius: 50%;
+
+}
+
+
+
+
+
+
+
+
+
+/* <!-- end of computer & laptop -->
+<!-- //////////////////////////////////////// --> */
+
+
 
 /*Brands  */
 
 
+.Brands .carousel-control-prev {
+  background-color: teal;
+        padding: 6px;
+    top: 42%;
 
+    width: 4%;
+    height: 15%;
+   left: 0%;
+       border-radius: 50%;
+
+}
+
+.Brands .carousel-control-next {
+    
+    background-color: teal;
+            padding: 6px;
+
+    top: 42%;
+    width: 4%;
+    height: 15%;
+    right: 0%;
+    border-radius: 50%;
+}
 
 
 
