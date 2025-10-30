@@ -1,0 +1,16 @@
+body{
+    height: 2000px;
+}
+
+
+.left-form-in-contant a{
+
+color: black;
+text-decoration-line: none;
+
+}
+
+.left-form-in-contant a:hover{
+
+color: blue;
+}
