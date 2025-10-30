@@ -14,5 +14,52 @@ body{
     font-size: 18px;
 }
 
+.client .d-flex:hover img {
+
+    transform: rotate(360deg);
+}
+
+.client .d-flex img {
+  transition: transform 1s ;  
+                    
+}
+
+
+
 
 /* end of client */
+
+
+/* profile */
+
+.profile .card{
+    border: none;
+    
+}
+
+.profile .card a{
+    color: black;
+    text-decoration-line: none;
+    
+}
+
+
+
+.profile img{
+object-fit: cover;
+
+}
+
+.profile .color-in-profile{
+width: 70px;
+height:2px;
+background-color: blue;
+margin: auto;
+}
+
+
+
+
+
+
+/* end of profile */
