@@ -1,0 +1,16 @@
+.privacy div{
+margin: 10px 0;
+
+}
+
+.privacy a{
+
+  text-decoration-line:none ;
+color: #ca6e21;
+}
+
+.privacy a:hover{
+
+  
+color: blue;
+}
