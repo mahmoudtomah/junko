@@ -1,0 +1,31 @@
+.account a{
+    text-decoration-line: none;
+    color: black;
+}
+
+.account a{
+    text-decoration-line: none;
+    color: black;
+}
+
+
+.account a:hover,label:hover{
+    
+    color: #0063d1;
+}
+
+.font{
+    font-size: 12px;
+}
+
+.account .button{
+color: #fff;
+background-color: #0063d1;
+
+}
+
+.account .button:hover{
+color: #fff;
+background-color: black;
+
+}
