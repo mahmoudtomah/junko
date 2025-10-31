@@ -1,0 +1,48 @@
+.compare a{
+text-decoration-line: none;
+color: #fff;
+}
+
+.add-to-card a{
+
+    background-color: #0063d1;
+    padding: 5px 15px;
+   border-radius:5px ;
+}
+
+.add-to-card a:hover{
+
+    background-color: #000;
+    transition-duration: 1s;
+   
+}
+
+.compare tr {
+
+    border: 1px solid #000;
+}
+
+.compare td {
+      padding: 30px 0 ;
+    border: 1px solid #000;
+    text-align: center;
+}
+
+.compare h3{
+
+    font-size: 25px;
+}
+
+
+tr td:first-child {
+  padding: 20px 20px;
+}
+
+table {
+  overflow-x: auto;
+  width: 100%;
+}
+
+ table {
+  min-width: 700px;
+}
