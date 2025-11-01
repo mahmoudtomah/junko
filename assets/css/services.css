@@ -40,6 +40,40 @@ body{
     margin-top: 20px;
 } 
      
+ }
+
+
+
+ .f4-cards .btn-outline-dark:hover{
+
+    background-color: #0063d1;
+    
+}
+
+
+.f4-cards .first-item-card{
+
+ color: #fff;
+ font-weight: 700;
+    background-color: #0063d1;
+
+}
+
+.Advantages-of-Mobile-ecommerce-theme .btn-outline-dark:hover{
+
+    background-color: #0063d1;
+    
+}
+
+@media (max-width: 767.98px) { 
+
+.Advantages-of-Mobile-ecommerce-theme .to-make-column{
+
+ flex-direction: column;
+ gap: 20px;
+ align-items: center;
+
+}
 
 
 
