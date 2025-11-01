@@ -1,4 +1,47 @@
+body{
+    height: 2000px;
+}
+
+
 .our-services{
 
     background-color: #ececec;
 }
+
+
+.unlimited-ideas img{
+
+    width: 45%;
+    object-fit: cover;
+}
+
+.unlimited-ideas .btn-outline-dark:hover{
+
+    background-color: #0063d1;
+    
+}
+
+.unlimited-ideas .position-p{
+
+    left: 50%;
+    top: 20%;
+    overflow: hidden;
+}
+
+.unlimited-ideas{
+    overflow-x: hidden;
+}
+
+@media (max-width: 992px) { 
+ .unlimited-ideas .position-p{
+      left: 40%;
+    top: 100%;
+    transform: translateX(-50%);
+    margin-top: 20px;
+} 
+     
+
+
+
+
+ }
