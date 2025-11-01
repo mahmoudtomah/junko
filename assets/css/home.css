@@ -95,6 +95,41 @@
 
 }
 
+.form-above-navbar .img-hover:hover{
+
+border: 1px solid black;
+}
+
+.form-above-navbar .btn-in-form{
+  padding: 5px 0;
+  color: #000;
+  width: 100%;
+}
+
+.form-above-navbar .back-btn
+{         padding: 5px 0;
+    background-color: #ececec;
+    border-radius: 5px;
+
+}
+
+
+.form-above-navbar .back-btn:hover
+{       
+    background-color: #0063d1;
+    transition-duration: 1s;
+
+}
+
+.form-above-navbar .back-btn a:hover{
+    color: #fff;
+    transition-duration: 1s;
+
+}
+
+
+
+
 /* <!-- end ofform above navbar -->
 <!-- //////////////////////////////////////////// --> */
 
@@ -102,6 +137,47 @@
 
 /* <!-- end ofform above navbar -->
 <!-- //////////////////////////////////////////// --> */
+
+
+/* <!-- navbar --> */
+
+.navbar-main  .navbar{
+
+background-color: #0063d1;
+}
+
+
+.navbar-main a{
+
+   color: #fff;
+}
+
+.navbar-main .dropdown-menu a{
+
+  color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* <!-- end of navbar -->
+<!-- /////////////////////////////////////////////////// --> */
+
+
+
+
+
+
+
 
 
 
