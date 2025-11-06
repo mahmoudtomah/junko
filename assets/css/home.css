@@ -600,22 +600,22 @@ gap: 3px;
 
 .hot-deals-product .carousel-control-prev {
 background-color: #0063d1;
-        
-    top: 60%;
-    width: 4%;
-    height: 15%;
-   left: 0%;
+    top: 50%;
+    width: 40px;
+    height:40px;
+   left: -50px;
    border-radius: 50%;
+   
 }
 
 .hot-deals-product .carousel-control-next {
     
     background-color: #0063d1;
         
-    top: 60%;
-    width: 4%;
-    height: 15%;
-   right: 0%;
+    top: 50%;
+    width: 40px;
+    height: 40px;
+   right: -50px;
    border-radius: 50%;
 }
 
@@ -896,20 +896,20 @@ display: none;
 .computer-laptop .carousel-control-prev {
   background-color: #0063d1;
         
-    top: 100%;
-    width: 4%;
-    height: 15%;
-   left: 0%;
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    left: -50px;
    border-radius: 50%;
 }
 
 .computer-laptop .carousel-control-next {
     
     background-color: #0063d1;
-    top: 100%;
-    width: 4%;
-    height: 15%;
-    right: 0%;
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    right: -50px;
        border-radius: 50%;
 
 }
@@ -933,11 +933,11 @@ display: none;
 .Brands .carousel-control-prev {
   background-color: teal;
         padding: 6px;
-    top: 42%;
+      top: 42%;
 
-    width: 4%;
-    height: 15%;
-   left: 0%;
+      width: 40px;
+     height: 40px;
+      left: 0%;
        border-radius: 50%;
 
 }
@@ -948,12 +948,11 @@ display: none;
             padding: 6px;
 
     top: 42%;
-    width: 4%;
-    height: 15%;
+    width: 40px;
+    height: 50px;
     right: 0%;
     border-radius: 50%;
 }
-
 
 
 
